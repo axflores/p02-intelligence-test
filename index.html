@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Axel Flores-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="p2.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>IP Address Test</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body class="index">
+	  <h1>Can You Learn IP Addresses?</h1>
+	  <p>IP Addresses are in every eletronic device that is able to connect to a network (WiFi).
+     These addresses permit different devices to communicate with each other. Wihtout them
+     you are pretty much useless with you want web access. I made this little test so you
+     can understand how IP addresses are assigned. Goodluck!!!</p>
+
+            <p>Some Important Patterns</p>
+              <ul>
+              <li>1000 0000 = 128</li>
+              <li>1100 0000 = 192</li>
+              <li>1110 0000 = 224</li>
+              <li>1111 0000 = 240</li>
+              <li>1111 1000 = 248</li>
+              <li>1111 1100 = 252</li>
+              <li>1111 1110 = 254</li>
+              <li>1111 1111 = 255</li>
+
+	    <div class="center">
+	      <label for="ipresult1" class="col-sm-3 control-label ;">What is 241?</label>
+        <div class="col-sm-2">
+	      <input size="50" type="text" id="address1" class="form-control input-md"
+         placeholder="ex:11110000" onchange= "testAnswer()"/>
+	          <span id="Right!" class="control-label hidden-message">
+              </span>
+	    </div>
+	</div>
+  <div>
+    <a class="push" href="second.html">Next one</a>
+  </body>
+ </html>
